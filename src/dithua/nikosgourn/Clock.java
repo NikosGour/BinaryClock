@@ -38,9 +38,9 @@ public class Clock {
         String str = "";
 
         str += paddingOfBinaryNums(convertToBinary(now.getHour()));
-        str += ":";
+        str += " : ";
         str += paddingOfBinaryNums(convertToBinary(now.getMinute()));
-        str += ":";
+        str += " : ";
         str += paddingOfBinaryNums(convertToBinary(now.getSecond()));
 
         return str;
